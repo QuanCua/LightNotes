@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7e4e4">
+
+    <ListView
+        android:id="@+id/listViewTrash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/delete_trash"
+        android:background="@drawable/circle4"
+        android:backgroundTint="@color/colorTrash"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79ded9d9">
+    </RelativeLayout>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imgViewTrashEmpty"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@drawable/trash_empty"-->
+        <!--android:visibility="visible"-->
+        <!--android:layout_centerInParent="true"/>-->
+
+</RelativeLayout>

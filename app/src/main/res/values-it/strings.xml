@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Notepad Memory</string>
+    <string name="title">Titolo</string>
+    <string name="action_arrange">Organizzare</string>
+    <string name="action_search">Ricerca</string>
+    <string name="action_menu">Menu</string>
+    <string name="note">Nota...</string>
+    <string name="color">Colore</string>
+    <string name="sort">Ordina per</string>
+    <string name="back_up">Di riserva</string>
+    <string name="backup_infor">Beta test! Scheda SD / backup.db</string>
+    <string name="restore">Ristabilire</string>
+    <string name="select_color">Seleziona un colore</string>
+    <string name="Recently_updated">Aggiornato di recente</string>
+    <string name="Date_created">Data di creazione</string>
+    <string name="By_title">Per titolo</string>
+    <string name="Text_View">Vista del testo</string>
+    <string name="Build">Fai clic sul pulsante "+" per creare una nuova nota.</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mnHome"
+        android:title="activity_Home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mnSort"
+        android:title="activity_sort"
+        android:icon="@drawable/arrange"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+
+</menu>

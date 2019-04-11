@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad Memory</string>
+    <string name="title">título</string>
+    <string name="action_arrange">organizar</string>
+    <string name="action_search">pesquisa</string>
+    <string name="action_menu">cardápio</string>
+    <string name="note">Nota...</string>
+    <string name="color">cor</string>
+    <string name="sort">ordenar por</string>
+    <string name="back_up">cópia de segurança</string>
+    <string name="backup_infor">Teste beta! sd card / backup.db</string>
+    <string name="restore">restaurar</string>
+    <string name="select_color">selecione uma cor</string>
+    <string name="Recently_updated">Atualizado recentemente</string>
+    <string name="Date_created">Data Criada</string>
+    <string name="By_title">Por título</string>
+    <string name="Text_View">visualização de texto</string>
+    <string name="Build"> Clique no botão "+" para criar uma nova nota </string>
+
+</resources>

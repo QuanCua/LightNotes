@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad Memory</string>
+    <string name="title">タイトル</string>
+    <string name="action_arrange">アレンジ</string>
+    <string name="action_search">サーチ</string>
+    <string name="action_menu">メニュー</string>
+    <string name="note">注意...</string>
+    <string name="color">色</string>
+    <string name="sort">並び替え</string>
+    <string name="back_up">バックアップ</string>
+    <string name="backup_infor">ベータテスト！ SDカード/backup.db</string>
+    <string name="restore">リストア</string>
+    <string name="select_color">色を選択する</string>
+    <string name="Recently_updated">最新のアップデート</string>
+    <string name="Date_created">作成日</string>
+    <string name="By_title">タイトル別</string>
+    <string name="Text_View">テキストビュー</string>
+    <string name="Build"> 新しいノートを作成するには "+"ボタンをクリックしてください </string>
+
+</resources>

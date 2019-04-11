@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_color"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:id="@+id/textView" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupColor"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp">
+
+        <RadioButton
+            android:id="@+id/buttonColor0"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle"
+            android:button="@drawable/custom_radiobutton"
+            />
+
+        <RadioButton
+            android:id="@+id/buttonColor1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/circle1"
+            android:button="@drawable/custom_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/buttonColor2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginStart="130dp"
+            android:background="@drawable/circle2"
+            android:button="@drawable/custom_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/buttonColor3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/circle3"
+            android:button="@drawable/custom_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/buttonColor4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginStart="230dp"
+            android:background="@drawable/circle4"
+            android:button="@drawable/custom_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/buttonColor5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/circle5"
+            android:button="@drawable/custom_radiobutton"/>
+
+        <RadioButton
+            android:id="@+id/buttonColor6"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/circle6"
+            android:button="@drawable/custom_radiobutton"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

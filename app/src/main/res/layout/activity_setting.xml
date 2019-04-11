@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layoutColor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/textViewColor"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="fill"
+            android:gravity="fill"
+            android:text="@string/color"
+            android:textColor="#f000"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/textViewCircle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/circle"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutSort"
+        android:layout_marginTop="-2dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layoutColor"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/textViewSort"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="10dp"
+            android:gravity="fill"
+            android:text="@string/sort"
+            android:textColor="#f000"
+            android:textSize="18dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBackup"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/layoutSort"
+        android:background="@drawable/border"
+        android:layout_marginTop="-2dp">
+
+        <TextView
+            android:id="@+id/textViewBackup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/back_up"
+            android:textColor="#f000"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textViewBackup"
+            android:text="@string/backup_infor"
+            android:layout_marginLeft="10dp"
+            android:gravity="top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutRestore"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/layoutBackup"
+        android:background="@drawable/border"
+        android:layout_marginTop="-2dp">
+
+        <TextView
+            android:id="@+id/textViewRestore"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/restore"
+            android:textColor="#f000"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textViewRestore"
+            android:text="@string/backup_infor"
+            android:layout_marginLeft="10dp"
+            android:gravity="top" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Development by QuanCua."
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="#839c9a9a"/>
+
+</RelativeLayout>

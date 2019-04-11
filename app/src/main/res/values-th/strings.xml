@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad Memory</string>
+    <string name="title">หัวข้อ</string>
+    <string name="action_arrange">เตรียมการ</string>
+    <string name="action_search">ค้นหา</string>
+    <string name="action_menu">เมนู</string>
+    <string name="note">บันทึก...</string>
+    <string name="color">สี</string>
+    <string name="sort">จัดเรียงตาม</string>
+    <string name="back_up">การสำรองข้อมูล</string>
+    <string name="backup_infor">การทดสอบเบต้า! การ์ด SD /backup.db</string>
+    <string name="restore">ฟื้นฟู</string>
+    <string name="select_color">เลือกสี</string>
+    <string name="Recently_updated">อัปเดตเมื่อเร็ว ๆ นี้</string>
+    <string name="Date_created">วันที่สร้าง</string>
+    <string name="By_title">ตามชื่อ</string>
+    <string name="Text_View">มุมมองข้อความ</string>
+    <string name="Build"> คลิกปุ่ม "+" เพื่อสร้างโน้ตใหม่ </string>
+
+</resources>

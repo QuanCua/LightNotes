@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">라이트 노트</string>
+    <string name="title">표제</string>
+    <string name="action_arrange">붙이다</string>
+    <string name="action_search">수색</string>
+    <string name="action_menu">메뉴</string>
+    <string name="note">노트...</string>
+    <string name="color">색깔</string>
+    <string name="sort">정렬 기준</string>
+    <string name="back_up">지원</string>
+    <string name="backup_infor">베타 테스트! SD 카드 / backup.db</string>
+    <string name="restore">복원</string>
+    <string name="select_color">색상 선택</string>
+    <string name="Recently_updated">최근 업데이트</string>
+    <string name="Date_created">생성 일자</string>
+    <string name="By_title">제목 별</string>
+    <string name="Text_View">텍스트보기</string>
+    <string name="Build"> "+"버튼을 클릭하여 새 메모를 만듭니다. </string>
+
+</resources>
